@@ -16,7 +16,7 @@
             double result = 0;
             switch (action)
             {
-                case "+":
+               /* case "+":
                     result = firstvalue + secondvalue; break;
                 case "-":
                     result = firstvalue - secondvalue; break;
@@ -29,32 +29,33 @@
                     break;
                 default:
                     break;
+                    Console.WriteLine("result\n" + result);
+                     Console.ReadLine();*/
             }
 
-            //        if (action == "+")
-            //        {
-            //            result = firstvalue + secondvalue;
-            //        }
-            //        else if (action == "-")
-            //        {
-            //            result = firstvalue - secondvalue;
-            //        }
-            //        else if (action == "/")
-            //        {
-            //            result = firstvalue / secondvalue;
-            //        }
-            //        else if (action == "*")
-            //        {
-            //            result = firstvalue * secondvalue;
-            //        }
-            //        else if (action == "%")
-            //        {
-            //            result = firstvalue % secondvalue;
-            //        }
-            //        Console.WriteLine("result\n" + result);
-            //        Console.ReadLine();
-            //    }
-            //}
+            if (action == "+")
+            {
+                result = firstvalue + secondvalue;
+            }
+            else if (action == "-")
+            {
+                result = firstvalue - secondvalue;
+            }
+            else if (action == "/")
+            {
+                result = firstvalue / secondvalue;
+            }
+            else if (action == "*")
+            {
+                result = firstvalue * secondvalue;
+            }
+            else if (action == "%")
+            {
+                result = firstvalue % secondvalue;
+            }
+            Console.WriteLine("result\n" + result);
+            Console.ReadLine();
         }
     }
 }
+    
